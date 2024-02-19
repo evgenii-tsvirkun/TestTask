@@ -1,0 +1,15 @@
+.products {
+  margin-top: 30px;
+  h2 {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+}

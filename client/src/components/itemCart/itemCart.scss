@@ -1,0 +1,65 @@
+.itemCart {
+  background: #f2f3f5;
+  border-radius: 10px;
+  width: 800px;
+  height: 100px;
+  margin: 20px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  .itemImg {
+    width: 40px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .itemCount,
+  .itemPrice {
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    .buttonCount {
+      margin: 10px;
+      :hover {
+        transform: scale(1.2);
+      }
+
+      button {
+        background: black;
+        color: white;
+        border: none;
+        border-radius: 4px;
+      }
+    }
+    .count {
+      display: flex;
+      align-self: center;
+    }
+  }
+
+  .buttonBuy {
+    height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    :hover {
+      transform: scale(1.2);
+      background-color: white;
+      color: black;
+    }
+    button {
+      width: 100%;
+      background: black;
+      padding: 10px;
+      font-size: 14px;
+      color: white;
+      border: none;
+      border-radius: 10px;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Sofia+Sans:wght@300;500;700&display=swap");
+body {
+  font-size: 16px;
+  line-height: 16px;
+  font-family: Montserrat, Roboto, sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-weight: 500;
+  padding-bottom: 20px;
+  .button {
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    :hover {
+      transform: scale(1.2);
+      background-color: white;
+      color: black;
+    }
+    button {
+      width: 100%;
+      background: black;
+      padding: 10px;
+      font-size: 16px;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+}

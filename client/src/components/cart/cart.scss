@@ -1,0 +1,31 @@
+h2 {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+.cart {
+  height: calc(100vh - 150px);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  .content {
+    margin-top: 10px;
+  }
+  .cartTitle {
+    justify-self: flex-start;
+  }
+  .price {
+    display: flex;
+    flex-direction: column;
+
+    .totalPrice {
+      display: flex;
+      justify-content: center;
+      margin: 10px;
+      width: 200px;
+      color: black;
+    }
+  }
+}
